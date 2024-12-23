@@ -10,9 +10,10 @@ const firebaseConfig = {
   projectId: "dragon-news-eadcc",
   storageBucket: "dragon-news-eadcc.firebasestorage.app",
   messagingSenderId: "330037364404",
-  appId: "1:330037364404:web:2e48b72987fffcec36f9e1"
+  appId: "1:330037364404:web:2e48b72987fffcec36f9e1" 
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 export default app;
+
