@@ -6,14 +6,14 @@ const Login = () => {
   const { userLogin, setUser } = useContext(AuthContext);
   const [error, setError] = useState({});
   const location = useLocation();
-  console.log(location);
+  //console.log(location);
   const navigate = useNavigate();
   const handleSubmit = (e) => {
     e.preventDefault();
     const form = e.target;
     const email = form.email.value;
     const password = form.password.value;
-    console.log({ email, password });
+   // console.log({ email, password });
     userLogin(email, password)
       .then((result) => {
         const user = result.user;

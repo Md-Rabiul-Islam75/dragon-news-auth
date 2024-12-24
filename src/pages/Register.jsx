@@ -30,7 +30,7 @@ const Register = () => {
        .then((result) => {
           const user = result.user;
           setUser(user);
-          console.log(user);
+          //console.log(user);
           updateUserProfile({displayName: name, photoURL: photo}).then(() =>{
             navigate("/");
           })
